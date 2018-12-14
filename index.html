@@ -12,7 +12,7 @@
         <!-- Resets CSS from 16.3 -->
         <link rel="stylesheet" href="styles_16.3.css">
         <!-- Adds Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
         <!-- Adds Icons -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- ======== End Links to CSS ======== -->
@@ -27,19 +27,43 @@
     <aside>
         <nav class="sidebar-container">
             <!--Logo -->
-            <img class="sidebar-logo" src="https://via.placeholder.com/250x150">
+            <img class="sidebar-logo" src="images/logo/NSA-Logo.png" width="150px" height="150px">
             <!--Name of Government Agency -->
             <p> Government Agency Content Style Guide</p>
             <h2> Style Guide </h2>
             <!--Anchor Links-->
             <a href="#Guidelines" >Guidelines</a> 
+
+            <hr>
+
             <a href="#Logo" >Logo Rules</a> 
+
+            <hr>
+
             <a href="#Typography" >Typography</a> 
+
+            <hr>
+
             <a href="#Color" >Color</a> 
+
+            <hr>
+
             <a href="#Buttons" >Buttons</a> 
+
+            <hr>
+
             <a href="#Icons" >Icons</a> 
+
+            <hr>
+
             <a href="#Imagery" >Imagery</a> 
+
+            <hr>
+            
             <a href="#Footer" >Footer</a> 
+
+            <hr>
+
         </nav>
     </aside>
     <!-- 
@@ -68,8 +92,7 @@
                     Logo
                 </h1>
                 <div class="row-container-no-wrap ">
-                    <img src="images/logo/Logo-dark@2x.png" class="section-logo">
-                    <img src="images/logo/Logo-light@2x.png" class="section-logo">
+                    <img src="images/logo/NSA-Logo.png" class="section-logo">
                 </div>
             </article>
             <hr>
@@ -83,13 +106,13 @@
                 <div class="type-faces">
                     <p> The USPS uses the following two typefaces:</p>
                     <h2 class="type-faces-02">
-                        Open Sans
+                        Lora
                     </h2>
-                    <p> Open sans is to be used for headers.</p>
+                    <p> Lora is to be used for headers.</p>
                     <h2 class="type-faces-01">
-                        Lucida Sans
+                        Lora
                     </h2>
-                    <p> Lucida sans is to be used for headers.</p>
+                    <p> Lora is to be used for headers.</p>
                 </div>
                 <div class="type-styles">
                     <h1>
@@ -117,8 +140,8 @@
                     <div>
                     <h4>CSS</h4>
                         <pre>
-font-family: Verdana, Geneva, Tahoma, sans-serif; 
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Lora', serif;
                         </pre>
                     </div>
                 </section>
@@ -141,30 +164,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
                             <span class="color-shape color-red">
 
                             </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
+                            <p class="colorbox">#181C4D</p>
+                            <p class="colorbox2">#4D54A5</p>
                         </div>
                         <div class="color-item">
-                            <span class="color-shape color-orange">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                        <div class="color-item">
-                            <span class="color-shape color-yellow">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                        <div class="color-item">
-                            <span class="color-shape color-green">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
                     </div>
                     <br>
                     <!-- Secondary Colors-->
@@ -177,48 +180,22 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
                             <span class="color-shape color-blue">
 
                             </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
+                            <p class="colorbox3">#E6D237</p>
+                            <p class="colorbox4">#FFFFFF</p>
                         </div>
                         <div class="color-item">
                             <span class="color-shape color-purple">
 
                             </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
+                            <p class="colorbox5">#C9C9C9</p>
+                        
                         </div>
-                        <div class="color-item">
-                            <span class="color-shape color-gray">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
-                        </div>
-                        <div class="color-item">
-                            <span class="color-shape color-black">
-
-                            </span>
-                            <p>#00000</p>
-                            <p>#00000</p>
                         </div>
                     </div>    
                     <section class="code">
                             <div>
                             <h4>CSS</h4>
                                 <pre>
-/*Primary Colors*/                
-button {
-    background: tomato;
-    height: 40px;
-    width: 120px;
-    border-radius: 4px;
-    padding: 5px;
-    margin: 20px;
-}
-
-button:hover {
-    background: yellow;
-}
   
                                 </pre>
                             </div>
@@ -236,19 +213,19 @@ button:hover {
                     </h1>
                     <!-- Primary Buttons-->
                     <div class="row-container">
-                        <button class="button-normal">
+                        <button class="btn">
                             Normal
                         </button>
-                        <button class="button-hover">
+                        <button class="btn2">
                             Hover
                         </button>
-                        <button class="button-pressed">
-                            Pressed
+                        <button class="btn3">
+                            Active
                         </button>
-                        <button class="button-loading">
+                        <button class="btn4">
                             <i class="fas fa-spinner"></i> Loading
                         </button>
-                        <button class="button-disable">
+                        <button class="btn5">
                             Disabled
                         </button>
                     </div>
